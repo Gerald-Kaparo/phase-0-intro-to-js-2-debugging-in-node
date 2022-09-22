@@ -130,3 +130,18 @@ We will get more practice using the debugger in an upcoming lesson.
 
 [breakpoints]: https://en.wikipedia.org/wiki/Breakpoint
 [node-debugger]: https://nodejs.org/api/debugger.html
+
+
+## Researved
+
+```js
+let count = 1;
+while (count < 5) {
+  if (count === 1) {
+    console.log(`The loop has executed ${count} time.`);
+  } else {
+    console.log(`The loop has executed ${count} times.`);
+  }
+  count += 1;
+}
+```
